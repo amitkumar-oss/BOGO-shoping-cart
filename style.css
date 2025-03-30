@@ -14,20 +14,20 @@
 }
 
 body {
-     display: grid;
-     place-items: center;
-     height: 100vh;
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 /* Main Container */
 .container {
     padding: 20px;
     width: 450px;
-    
+
     /* Main Heading */
     h1 {
         color: var(--primary-color);
-        font-size:25px;
+        font-size: 25px;
         position: relative;
         text-align: center;
 
@@ -58,21 +58,25 @@ body {
         position: relative;
         background-color: white;
         border-radius: 5px;
-        
-        
+
+
 
         .header {
             display: flex;
-            input[type="radio"] {
-                margin-right:10px;
-                margin-top: -16px;
-            }
 
-            > div {
+            input[type="radio"] {
+                margin-right: 10px;
+                margin-top: -16px;
+                accent-color:#fd44a1cc;
+              
+            }
+            
+            >div {
                 flex: 1;
                 display: flex;
                 justify-content: space-between;
-                padding:5px;
+                padding: 5px;
+
                 p {
                     font-size: 13px;
                 }
@@ -83,7 +87,7 @@ body {
                     padding: 0px 10px;
                     margin-left: 10px;
                     color: white;
-                    font-size:14px;
+                    font-size: 14px;
                 }
 
                 del {
@@ -102,7 +106,7 @@ body {
             background-color: var(--primary-color);
             padding: 3px 12px;
             color: white;
-            font-size:15px;
+            font-size: 15px;
             font-weight: 500;
             border-bottom-right-radius: 5px;
             border-bottom-left-radius: 5px;
@@ -115,7 +119,7 @@ body {
             width: 20px;
             background-color: var(--dark-color);
             left: -6px;
-            top:4px;
+            top: 4px;
             transform: rotate(30deg);
             z-index: -1;
         }
@@ -151,28 +155,29 @@ body {
                     border: 1px solid var(--light-color);
                     padding: 5px;
                 }
-                
+
                 tr {
-                    
+
                     td {
                         padding: 3px;
                     }
 
-                   td:first-child {
+                    td:first-child {
                         font-size: 12px;
-                   } 
+                    }
                 }
             }
         }
 
     }
 
-    > p {
+    >p {
         display: flex;
         justify-content: space-between;
         margin-top: -10px;
         margin-bottom: 20px;
         cursor: pointer;
+
         span {
             color: var(--primary-color);
         }
@@ -203,14 +208,14 @@ body {
     label.active {
         border: 2px solid var(--primary-color);
         background-color: #fff9fa;
-       
-        
-    
-        .body {
-            height:auto;
-          
-        }
-    } 
 
-    
+
+
+        .body {
+            height: auto;
+
+        }
+    }
+
+
 }
